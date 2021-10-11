@@ -4,6 +4,18 @@
 #include <iostream>
 #include <stdio.h>
 
+//Mi primera funcion
+
+int suma Datos(int a, int b) {
+
+    int resultado;
+    resultado = a + b;
+
+    return resultado;
+
+}
+
+
 int main()
 {
     /*Suma dos numeros, estos numeros pedirlos por teclado*/
@@ -24,7 +36,7 @@ int main()
     scanf_s("%d", &iDato2); //entrada de datos tipo numerico por teclado Dato1
 
   //Operacion
-    iResultado = iDato1 + iDato2;
+    iResultado = sumaDatos(iDato, iDato2);
 
     //Imprimir el resultado
     printf("El resultado de la suma es: %d", iResultado);
